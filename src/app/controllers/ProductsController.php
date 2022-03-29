@@ -41,7 +41,7 @@ class ProductsController extends Controller
 
         if ($success) {
             $eventsManager = $this->di->get('EventsManager');
-            $eventsManager->fire('notifications:setDefaultZipcode', $this);
+            $eventsManager->fire('notifications:setDefault', $this, $id);
 
             $this->view->message = "Product added successfully";
         } else {
