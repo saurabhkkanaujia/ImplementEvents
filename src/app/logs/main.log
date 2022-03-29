@@ -1,0 +1,8 @@
+[2022-03-29T04:41:48+00:00][error] Product not added due to following reason: <br>description is required<br>tags is required<br>price is required<br>stock is required
+[2022-03-29T04:42:18+00:00][error] Product not added due to following reason: <br>name is required<br>description is required<br>tags is required<br>price is required<br>stock is required
+[2022-03-29T04:44:41+00:00][error] Product not added due to following reason: <br>name is required<br>description is required<br>tags is required<br>price is required<br>stock is required
+[2022-03-29T04:45:41+00:00][error] Product not added due to following reason: <br>description is required<br>tags is required<br>price is required<br>stock is required
+[2022-03-29T05:35:55+00:00][error] Order not placed due to following reason: <br>name is required<br>description is required<br>tags is required<br>price is required<br>stock is required
+[2022-03-29T06:53:05+00:00][error] Product not added due to following reason: <br>name is required<br>description is required<br>tags is required<br>price is required<br>stock is required
+[2022-03-29T06:53:13+00:00][error] Product not added due to following reason: <br>description is required<br>tags is required<br>price is required<br>stock is required
+[2022-03-29T11:00:23+00:00][error] Order not placed due to following reason: <br>zipcode is required
