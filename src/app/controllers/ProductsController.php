@@ -51,6 +51,8 @@ class ProductsController extends Controller
     }
 
     public function listProductsAction() {
+        // $eventsManager = $this->di->get('EventsManager');
+        // $eventsManager->fire('application:beforeHandleRequest', $this->get('application'));
         $this->view->data = Products::find();
     }
 }

@@ -40,6 +40,8 @@ $loader->registerNamespaces(
 $loader->register();
 
 $container = new FactoryDefault();
+$eventsManager = new EventsManager();
+
 
 $container->set(
     'view',
@@ -91,10 +93,15 @@ $container->set(
     }
 );
 
-$eventsManager = new EventsManager();
+
 
 $eventsManager->attach(
     'notifications',
+    new App\Listeners\NotificationsListeners()
+);
+
+$eventsManager->attach(
+    'application:beforeHandleRequest',
     new App\Listeners\NotificationsListeners()
 );
 
@@ -102,6 +109,8 @@ $container->set(
     'EventsManager',
     $eventsManager
 );
+
+$application->setEventsManager($eventsManager);
 
 
 // $container->set(
